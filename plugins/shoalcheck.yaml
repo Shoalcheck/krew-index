@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: shoalcheck
 spec:
-  version: v0.1.4
+  version: v0.1.5
   homepage: https://shoalcheck.com
   shortDescription: Read-only preflight and audit for your cluster
   description: |
@@ -26,8 +26,8 @@ spec:
       matchLabels:
         os: darwin
         arch: amd64
-    uri: https://github.com/Shoalcheck/shoalcheck/releases/download/v0.1.4/kubectl-shoalcheck_0.1.4_darwin_amd64.tar.gz
-    sha256: 27fa4b61de8068554a54def41a9ae7699fea55a34dd98f546da16e72f7ac50a9
+    uri: https://github.com/Shoalcheck/shoalcheck/releases/download/v0.1.5/kubectl-shoalcheck_0.1.5_darwin_amd64.tar.gz
+    sha256: 39b0d8cae46e796d25b70cbba49f181764f2101fff3adb0c1bcbece8ec107274
     files:
     - from: kubectl-shoalcheck
       to: .
@@ -38,8 +38,8 @@ spec:
       matchLabels:
         os: darwin
         arch: arm64
-    uri: https://github.com/Shoalcheck/shoalcheck/releases/download/v0.1.4/kubectl-shoalcheck_0.1.4_darwin_arm64.tar.gz
-    sha256: 40ffd8bbd9592baf2a0a1190616389b71e4a875863cf79eb66202e2c397259c1
+    uri: https://github.com/Shoalcheck/shoalcheck/releases/download/v0.1.5/kubectl-shoalcheck_0.1.5_darwin_arm64.tar.gz
+    sha256: e13ac48479d27f18823a401354f643cfa9dd211e8b91d686ac216b3d860465d5
     files:
     - from: kubectl-shoalcheck
       to: .
@@ -50,8 +50,8 @@ spec:
       matchLabels:
         os: linux
         arch: amd64
-    uri: https://github.com/Shoalcheck/shoalcheck/releases/download/v0.1.4/kubectl-shoalcheck_0.1.4_linux_amd64.tar.gz
-    sha256: 0ca7bd8909232147326c74af3ed3526ff64e273d86e44720fda182a88037fcda
+    uri: https://github.com/Shoalcheck/shoalcheck/releases/download/v0.1.5/kubectl-shoalcheck_0.1.5_linux_amd64.tar.gz
+    sha256: 197fd8e072833bf92b91177bc9d906782c1b188cc0a1507892c2aa0a78f7c7cb
     files:
     - from: kubectl-shoalcheck
       to: .
@@ -62,8 +62,8 @@ spec:
       matchLabels:
         os: linux
         arch: arm64
-    uri: https://github.com/Shoalcheck/shoalcheck/releases/download/v0.1.4/kubectl-shoalcheck_0.1.4_linux_arm64.tar.gz
-    sha256: 565fac4efda6f34d301cd86a513818823310bf9497f8b5ba955101f496120c8c
+    uri: https://github.com/Shoalcheck/shoalcheck/releases/download/v0.1.5/kubectl-shoalcheck_0.1.5_linux_arm64.tar.gz
+    sha256: d845d45543a2f5033cb04b373a0dba79dd93ab12465ea3eb48c3561f0b68e208
     files:
     - from: kubectl-shoalcheck
       to: .
@@ -74,8 +74,8 @@ spec:
       matchLabels:
         os: windows
         arch: amd64
-    uri: https://github.com/Shoalcheck/shoalcheck/releases/download/v0.1.4/kubectl-shoalcheck_0.1.4_windows_amd64.zip
-    sha256: 4a6ca0781d38e1d98f6253b65718630e3dc3c9ebe123bb0d25d60fc17af70f31
+    uri: https://github.com/Shoalcheck/shoalcheck/releases/download/v0.1.5/kubectl-shoalcheck_0.1.5_windows_amd64.zip
+    sha256: 2ca20217964f8daba3765a7be61a31da0f9a79c92d7f3d4a177617f27dd6d356
     files:
     - from: kubectl-shoalcheck.exe
       to: .
@@ -86,8 +86,8 @@ spec:
       matchLabels:
         os: windows
         arch: arm64
-    uri: https://github.com/Shoalcheck/shoalcheck/releases/download/v0.1.4/kubectl-shoalcheck_0.1.4_windows_arm64.zip
-    sha256: 27854d4eebe32a0d4a73cdc2b875be3b861b2986c9ba8d3108cecc5394284b69
+    uri: https://github.com/Shoalcheck/shoalcheck/releases/download/v0.1.5/kubectl-shoalcheck_0.1.5_windows_arm64.zip
+    sha256: 2b09486632b548365d567e710dc7935d02c11b98f7d9adfc9b136d467dcd2223
     files:
     - from: kubectl-shoalcheck.exe
       to: .
